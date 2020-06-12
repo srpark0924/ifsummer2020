@@ -1,0 +1,38 @@
+p {
+    line-height:15px;
+}
+
+div {
+    margin-bottom: 70px;
+}
+
+h1 {
+    margin:30px 0;
+}
+
+.desc {
+    font-weight: bold;
+}
+
+.char1 {
+    color:coral;
+}
+.char2 {
+    color:blueviolet;
+}
+.char3 {
+    color:gold;
+}
+.char4 {
+    color:green;
+}
+.char5 {
+    color: pink;
+}
+.char6 {
+    color:skyblue;
+}
+
+.line {
+    color:black;
+}

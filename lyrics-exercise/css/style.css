@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    margin: 65px 0;
+    text-align:center;
+}
+h1 {
+    margin: 30px 0;
+    color: red;
+    font-size: 40px;
+}
+
+header {
+    margin: 50px 0;
+}
+main, h4 {
+    color: white;
+}
+
+div {
+    margin: 50px 0;
+}
+.monologue, span {
+    font-style:italic;
+}
+
+.repeat {
+    color: coral;
+}
+
+.yellow {
+    color: gold;
+}
+
+a {
+    font-size: 18px;
+    color: white;
+}
+img {
+    width:auto;
+    height:440px;
+}

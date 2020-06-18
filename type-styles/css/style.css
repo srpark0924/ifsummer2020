@@ -1,0 +1,80 @@
+html {
+    font-size: 24px;
+    background-color: rgba(236, 255, 254,0.7);
+}
+body {
+    margin: 5% 8%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section {
+    margin-bottom: 100px;
+}
+
+.headFont {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 1.85rem;
+    margin-bottom: .4em;
+}
+p {
+    margin-top:0;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: .4em;
+    color:rgb(102, 143, 177);
+}
+
+h3 {
+    font-size: .6rem;
+    margin-bottom: .2em;
+    color: steelblue;
+    font-weight: 400;
+}
+.normal {
+    font-weight: normal;
+    font-style: normal;
+}
+.none {
+    text-decoration: none;
+    text-transform: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+.wide {
+    letter-spacing: .3em;
+}
+.narrow {
+    letter-spacing: -.06em;
+}
+.underline {
+    text-decoration: underline;
+}
+.lineThrough {
+    text-decoration: line-through;
+}
+.overline {
+    text-decoration: overline;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+
+body section:first-child {
+    text-align: center;
+}

@@ -13,8 +13,15 @@
     padding: 10% 5% 45% 40%;
     background-size: cover;
     background-position: center 40%;
+    
 }
 
 .compressed-image {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.compressed-image img {
     width: 100%;
 }

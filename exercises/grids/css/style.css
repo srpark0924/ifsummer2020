@@ -1,0 +1,55 @@
+.grid img {
+    width: 150px;
+}
+
+.grid {
+    padding: 0;
+}
+
+.grid li {
+    display:block;
+}
+
+.using-floats li {
+    float:left;
+}
+
+.using-floats::after {
+    content: "";
+    display: block; /* This makes pseudo-element the width of its container, even though we cannot see it. */
+    clear: both;
+}
+
+.grid li {
+    width: 25%;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.grid li img {
+    width: 90%; 
+    /* This means "be 80% the width of your parent." The parent li is 25% of the total page width. This ensures the image has a bit of space on either side within its parent item, even on small devices. */
+}
+
+.using-inline-block li {
+    display:inline-block;
+}
+
+.using-inline-block {
+    font-size: 0;
+}
+
+.using-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.using-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.using-grid li {
+    width: 100%;.
+}

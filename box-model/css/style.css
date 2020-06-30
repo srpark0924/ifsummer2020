@@ -1,0 +1,159 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 14pt;
+}
+
+/* section 1 */
+
+body section:first-child {
+    padding: 170px 0;
+}
+
+body section:first-child {
+    background-image: url('../img/header.jpg');
+    background-size: cover;
+    background-position: 0 -260px;
+}
+
+body section:first-child, body section h2 {
+    text-align:center;
+    font-size: 2.2rem;
+}
+
+.introTitle {
+    font-size: 4.3rem;
+    line-height: .9;
+    color: white;
+}
+
+.subTitle {
+    font-size: 1.6rem;
+    line-height: 2.4;
+}
+
+.subTitle span {
+    font-style:italic;
+    color: white;
+}
+
+/* section 2 */
+
+body section:nth-child(2) {
+    background-color: rgb(78, 78, 86);
+}
+
+.samePadding {
+    padding: 37px calc(50% - 480px) 56px;
+    margin: 0 auto;
+}
+
+body section h2 {
+    margin-bottom: 31px;
+    letter-spacing: -.01em;
+}
+body section:nth-child(2) h2 {
+    color: rgb(238, 238, 238);
+}
+
+body section:nth-child(2) img {
+    width: 400px;
+    height: auto;
+    float:right;
+    border: 2px solid white;
+    margin: 0 0 30px 30px;
+}
+
+body section:nth-child(2) p {
+    margin-bottom:17px;
+    letter-spacing: -.02em;
+    word-spacing: 0.018em;
+    color: rgb(202, 202, 202);
+}
+body section:nth-child(2) p:nth-of-type(2) {
+    margin-bottom:15px;
+}
+
+body section:nth-child(2) p:last-child {
+    margin-bottom:0;
+}
+
+/* section 3 */
+
+body section:nth-child(3) {
+    background-color: rgb(220, 208, 192);
+    padding-top: 40px;
+    padding-bottom: 64px;
+}
+
+.bold {
+    font-weight: bold;
+    color: black;
+    font-size: 1.1rem;
+    letter-spacing: -.01em;
+}
+
+body section:nth-child(3) img {
+    width: 200px;
+    height: 150px;
+    margin-right: 12px;
+    float: left;
+}
+
+body section:nth-child(3) div {
+    float: left;
+    margin-bottom: 24px;
+    width: 50%;
+}
+
+body section:nth-child(3) div:last-child, body section:nth-child(3) div:nth-last-of-type(2) {
+    margin-bottom:0;
+}
+
+body section:nth-child(3) p {
+    float: left;
+    width: 220px;
+}
+body section:nth-child(3) p:nth-of-type(2) {
+    margin-top: 7px;
+    font-size: 1rem;
+    letter-spacing: -.018em;
+}
+
+article {
+    height: 498px;
+}
+
+body section:nth-child(4) {
+    clear:both;
+}
+
+/* section 4 */ 
+
+body section:nth-child(4) {
+    background-color: rgb(218, 99, 93);
+    padding: 40px calc(50% - 360px) 100px;
+}
+body section:nth-child(4) p {
+    font-size: 1.4rem;
+    text-align: center;
+    letter-spacing: -.007em;
+    line-height: 1.4;
+}
+
+/* section 5 */ 
+
+body section:last-child {
+    background-color: rgb(177, 147, 139);
+    padding-bottom: 24px;
+}
+
+body section:last-child p {
+    line-height: 1.7;
+    font-size: 1rem;
+    letter-spacing: -.018em;
+}

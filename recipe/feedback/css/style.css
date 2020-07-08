@@ -1,0 +1,10 @@
+section {
+    margin:0 auto;
+    max-width: 1020px;
+    min-width: 320px;
+    width: 90%;
+}
+
+span {
+    font-style: italic;
+}

@@ -22,9 +22,7 @@ body {
     font-size: 20px;
     padding: 15px 60px 15px 30px;
     border-radius: 10px;
-    transition: transform 0.5s, background-color 0.1s;
-    padding: 0.5s;
-    box-shadow: 0.1s;
+    transition: transform 0.5s, background-color 0.1s, padding 0.5s, box-shadow 0.1s;
 
 }
 

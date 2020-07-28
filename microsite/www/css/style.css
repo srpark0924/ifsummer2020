@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-size: 14px;
+}
+
+#wrapper > div {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, p, h1, span {
+    color:white;
+}
+
+.center {
+    text-align: center;
+}
+
+.img img {
+    width: 100%;
+}
+
+.img {
+    display:flex;
+}
+
+.icon {
+    width: 18px;
+}
+
+header ul > li, .third div ul > li {
+    display: inline-block;
+}
+
+.center > ul {
+    text-align: right;
+}
+
+h1 {
+    font-size: 2.8rem;
+    padding: 30px 0 15px;
+    font-family: 'Cormorant Garamond', serif;
+}
+.logo span {
+    color: #E02020;
+}
+
+.center {
+    position: relative;
+}
+.search {
+    position: absolute;
+    top: 52px;
+    left: 84.2%;
+    width: 100px;
+    color: rgb(158, 158, 158);
+}
+
+.searchIcon {
+    position: absolute;
+    bottom: -1px;
+    left: -8px;
+}
+
+nav {
+    background-color: #202020;
+    padding: 14px 0;
+}
+
+.mainMenu li {
+    width: 100px;
+    margin-right: 5%;
+}
+.mainMenu li:hover a {
+    color: #E02020;
+}
+
+.mainMenu li:last-child {
+    margin-right: 0;
+}
+
+
+.mainMenu li a {
+    font-family: 'Libre Baskerville', serif;
+}
+.first > div > div > p:first-child, .second div p:first-child, .img a div p {
+    font-family: 'Cormorant Garamond', serif;
+}
+.first > div > div > p:nth-of-type(2), .search, .first > div > div > a, .second div p:nth-of-type(2), .second div a, .third div ul li a, .img a div span, .third > div > div:last-child a {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.first > div {
+    background-color: #2b5797;
+	background-image: url('../img/img1.jpg');
+	background-size: cover;
+	background-position: center;
+    background-attachment: scroll;
+    height: 690px;
+    width:100%;
+}
+
+.first > div > div {
+    width: 420px;
+    padding: 390px 10% 0;
+    float: right;
+}
+.first > div > div:after {
+    content:"";
+    clear:both;
+}
+.first > div > div > p:first-child {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.first > div > div > p:nth-of-type(2) {
+    font-size: 1.1rem;
+    padding: 30px 0 60px;
+    line-height: 1.4;
+}
+
+.first > div > div > a, .second div a, .third > div > div:last-child a {
+    font-size: 1.1rem;
+    border-bottom: 1.5px solid #E02020;
+}
+
+.first > div > div, .second div {
+    position:relative;
+}
+.first > div > div > a, .third > div > div:last-child a {
+    padding: 5px 26px 10px 0;
+}
+.first > div > div > a:hover, .second div a:hover, .third > div > div:last-child a:hover {
+    color: #E02020;
+}
+.first > div > div > a:after, .second div a:after, .third > div > div:last-child a:after {
+    content:"";
+    position: absolute;
+    background: url(../img/arrow.png) no-repeat;
+    background-size:contain;
+    width:100px;
+    height: 20px;
+}
+.first > div > div > a:after {
+    right: 43%;
+    bottom: -21px;
+}
+.second div a:after {
+    left: 258px;
+    bottom:-21px;
+}
+.third > div > div:last-child {
+    position:relative;
+}
+.third > div > div:last-child a:after {
+    right: -90px;
+    top: 22px;
+}
+
+.second {
+    padding: 100px 0;
+    width: 80%;
+    margin:0 auto;
+}
+.second div {
+    width: 850px;
+}
+
+.second div p:first-child {
+    font-size: 1.9rem;
+}
+.second div p:nth-of-type(2) {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    padding: 50px 0 90px;
+}
+.second div a {
+    padding: 5px 32px 10px 0;
+}
+
+.third div ul {
+    text-align: center;
+    padding: 70px 0 80px;
+
+}
+.third div ul li a {
+    font-size: 1.3rem;
+}
+
+.third div ul li a {
+    padding-bottom: 5px;
+    margin-right: 45px;
+    position: relative;
+}
+.third div ul li a:hover {
+    color: #E02020;
+    border-bottom: 1px solid #E02020;
+}
+.third div ul li:first-child a {
+    color: #E02020;
+    border-bottom: 1px solid #E02020;
+    padding-bottom: 5px;
+    margin-right: 45px;
+    text-align: right;
+    position: relative;
+} 
+.third div ul li a:hover:before, .third div ul li:first-child a:before {
+    content:"";
+    position: absolute;
+    background: url(../img/star_on.png) no-repeat;
+    background-size:contain;
+    width:100px;
+    height: 20px;
+    left: -24px;
+    top: 2.5px;
+}
+
+.third div ul li:last-child a {
+    margin-right: 0;
+}
+
+.img a {
+    display: block;
+    position: relative;
+}
+.img a div {
+    padding: 20px 0 20px 50px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    background-color:rgba(97, 97, 97, 0.84);
+}
+.img a div p {
+    font-size: 1.4rem;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+.img a div span {
+    font-size: 1.1rem;
+    font-style: italic;
+}
+.img a:nth-of-type(1) div,.img a:nth-of-type(2) div, .img a:nth-of-type(3) div,.img a:nth-of-type(4) div {
+    bottom: 0;
+}
+
+.third > div > div:last-child {
+    text-align: right;
+    margin: 100px 160px 0;
+    height: 200px;
+}
+#footer {
+    padding: 50px;
+    background-color: #202020;
+}
+
+@media (max-width:980px) {
+    .second {
+        width: 87%;
+    }
+    .second div {
+        width: 100%;
+    }
+    .img {
+        display:block;
+    }
+    .img a div {
+        position: absolute;
+        width: 100%;
+    }
+}
+
+@media (max-width:740px) {
+    .search {
+        text-indent: -9999px; 
+        left: 93%;
+    }
+    .icon {
+        width: 26px;
+    }
+}
+
+@media (max-width:540px) {
+    .first > div > div {
+        float: none;
+    }
+}
